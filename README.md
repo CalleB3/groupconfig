@@ -1,7 +1,7 @@
 # GroupConfig
 ## Example config of main.tf
-HCL:
 
+```hcl
 terraform {
   required_providers {
     azuread = {
@@ -39,3 +39,4 @@ module "NewProject" {
     ado_display_name_reader = ""
     ado_display_name_admin = ""
 }
+```
